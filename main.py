@@ -4,7 +4,7 @@ import asyncio
 
 async def main():
     init()
-
+    key.start_text_input()
     screen_width = 1200
     screen_height = 600
     screen = display.set_mode([screen_width,screen_height])
@@ -73,6 +73,5 @@ async def main():
         darn = fah.render(str(youyouyou), False, (35,56,67))
         gyf = ""
         kind = False    
-        
-
+    key.stop_text_input()
 asyncio.run(main())
