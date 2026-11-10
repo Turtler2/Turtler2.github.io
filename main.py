@@ -56,7 +56,7 @@ async def main():
             nooo = fah.render(str(look), False, (35,56,67))
             screen.blit(nooo,(screen_width/2-20,screen_height/2-100))
             display.flip()
-            time.delay(150)
+            time.delay(250)
             mememe = 0
             youyouyou +=2
         if gyf == "RaifE":
